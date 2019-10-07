@@ -1,7 +1,7 @@
 <?php
 
 require 'vendor/autoload.php';
- 
+$test = new \Acme\Person();
 $rafael = new Acme\Person("Rafallo");
 $staff = new Acme\Staff([$rafael]);
 $erte = new Acme\Busisness($staff);
